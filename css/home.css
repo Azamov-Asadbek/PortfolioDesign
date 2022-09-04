@@ -1,0 +1,45 @@
+.home-hero {
+  min-height: calc(100vh - 135px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-hero-title {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.home-hero .text {
+  visibility: hidden;
+}
+
+.home-hero .line {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-hero-desc {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--text-color);
+  text-align: justify;
+}
+/*# sourceMappingURL=home.css.map */

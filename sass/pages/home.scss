@@ -1,0 +1,35 @@
+.home {
+  &-hero {
+    min-height: calc(100vh - 135px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-title {
+      font-family: 'Archivo';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 70px;
+      text-transform: uppercase;
+      color: var(--text-color);
+    }
+    .text {
+      visibility: hidden;
+    }
+    .line {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+    }
+    &-desc {
+      font-family: 'Archivo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: var(--text-color);
+      text-align: justify;
+    }
+  }
+}
