@@ -3243,7 +3243,7 @@ input[type='checkbox'], input[type='radio'] {
 
 body {
   font-family: 'Archivo', sans-serif;
-  background-color: var(--bg-color);
+  background-color: red;
   color: var(--text-color);
 }
 
