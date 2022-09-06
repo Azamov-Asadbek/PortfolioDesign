@@ -16,9 +16,8 @@ const cursor = new MouseFollower({
   activeState: '-active',
   mediaState: '-media',
   stateDetection: {
-    '-pointer': 'a,button',
-    '-opaque': '.my-image',
-    '-hidden': '.my-input',
+    '-pointer -exclusion': 'a,button',
+    '-hidden': 'iframe',
   },
   visible: true,
   visibleOnState: false,

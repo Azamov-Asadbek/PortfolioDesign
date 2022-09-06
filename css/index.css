@@ -3257,7 +3257,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 46px 0;
+  padding: 46px 0 0;
 }
 
 .header-inner-left-link {
@@ -3281,6 +3281,20 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header-inner-right-toggle {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
 }
 
 .header-inner-right-button-link {
@@ -3326,9 +3340,6 @@ body {
   border: none;
   outline: none;
   background-color: transparent;
-}
-
-.header-inner-right-button svg {
-  margin-left: 18px;
+  padding: 18px;
 }
 /*# sourceMappingURL=index.css.map */

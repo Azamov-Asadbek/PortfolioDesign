@@ -33,7 +33,8 @@
   }
 }
 .mf-cursor.-pointer:before {
-  transform: scale(0.15);
+  transform: scale(0.7);
+  mix-blend-mode: difference;
 }
 .mf-cursor.-text:before {
   opacity: 0.85;

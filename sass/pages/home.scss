@@ -1,6 +1,6 @@
 .home {
   &-hero {
-    min-height: calc(100vh - 135px);
+    min-height: calc(100vh - 135px + 46px);
     display: flex;
     align-items: center;
     justify-content: center;
